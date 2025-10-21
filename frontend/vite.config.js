@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -8,11 +8,11 @@ export default defineConfig({
   server: {
     proxy: {
       // Proxy /api requests to our backend server
-      '/api': {
-        target: 'http://localhost:5000',
+      "/api": {
+        target: "https://blogsforyou-1.onrender.com",
         changeOrigin: true,
         secure: false,
       },
     },
   },
-})
+});

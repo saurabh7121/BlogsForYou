@@ -2,7 +2,7 @@ import axios from "axios";
 
 // --- API Service ---
 // This part handles all communication with your backend.
-const API_URL = "http://localhost:5000/api"; // Ensure this port is correct
+const API_URL = "https://blogsforyou-1.onrender.com/api"; // Ensure this port is correct
 
 const AuthService = {
   signup: (userData) => {

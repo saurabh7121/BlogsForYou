@@ -69,7 +69,7 @@ const ProfileUpdate = ({ userData, onUpdateSuccess, onCancel }) => {
 };
 
 // --- API Service ---
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://blogsforyou-1.onrender.com/api";
 
 const AuthService = {
   getUserData: (token) => {
@@ -311,9 +311,10 @@ const Dashboard = () => {
         </div>
 
         <div className="w-full max-w-2xl p-8 space-y-6 bg-gray-900/80 backdrop-blur-sm rounded-lg shadow-2xl border-4 border-dashed border-yellow-500 text-center animate-slideInUp">
-        <h1 className="text-4xl font-bold font-serif tracking-tight text-gray-100">
-                Blogs<span className="text-yellow-400 italic font-normal">ForYou</span>
-            </h1>
+          <h1 className="text-4xl font-bold font-serif tracking-tight text-gray-100">
+            Blogs
+            <span className="text-yellow-400 italic font-normal">ForYou</span>
+          </h1>
 
           <div className="h-4 bg-repeat-x bg-size-[40px_40px] bg-linear-to-r from-yellow-400 from-50% to-gray-800 to-50% my-8! -rotate-3 scale-110"></div>
 
