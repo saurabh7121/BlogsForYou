@@ -141,8 +141,9 @@ The application provides robust user authentication mechanisms:
 - Integration with other social login providers.
 
 
-### Link to Project 
-
+***Link to Project*** 
+    ```bash
     Deployed on Render
-    Visit our website at <https://blogsforyou-2.onrender.com>.
-    Email us at <work.jadhavsaurabh@gmail.com>.
+    ```
+    Visit our website at 'https://blogsforyou-2.onrender.com'
+    Email us at `work.jadhavsaurabh@gmail.com`
