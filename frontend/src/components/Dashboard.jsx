@@ -270,7 +270,7 @@ const Dashboard = () => {
           </div>
         )}
 
-        <div className="absolute top-4 right-4 animate-fadeIn">
+        <div className="absolute top-4 right-4 animate-fadeIn z-50">
           <button
             onClick={() => setShowHamburgerMenu(!showHamburgerMenu)}
             className="text-yellow-400 hover:text-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-yellow-400 rounded-md p-2 transition-colors duration-300"
@@ -291,7 +291,7 @@ const Dashboard = () => {
             </svg>
           </button>
           {showHamburgerMenu && (
-            <div className="absolute right-0 mt-2 w-48 bg-gray-800 rounded-md shadow-lg py-1 z-20 border border-yellow-500 animate-fadeIn">
+            <div className="absolute right-0 mt-2 w-48 bg-gray-800 rounded-md shadow-lg py-1 z-50 border border-yellow-500 animate-fadeIn">
               {["Update Profile", "Delete Account", "Logout"].map((item) => (
                 <button
                   key={item}
@@ -310,7 +310,7 @@ const Dashboard = () => {
           )}
         </div>
 
-        <div className="w-full max-w-2xl p-8 space-y-6 bg-gray-900/80 backdrop-blur-sm rounded-lg shadow-2xl border-4 border-dashed border-yellow-500 text-center animate-slideInUp">
+        <div className="w-full max-w-2xl p-8 space-y-6 bg-gray-900/80 backdrop-blur-sm rounded-lg shadow-2xl border-4 border-dashed border-yellow-500 text-center animate-slideInUp z-10">
           <h1 className="text-4xl font-bold font-serif tracking-tight text-gray-100">
             Blogs
             <span className="text-yellow-400 italic font-normal">ForYou</span>

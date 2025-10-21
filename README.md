@@ -1,6 +1,6 @@
 # BlogsForYou | Tech, Lifestyle, Travel & More
 
-***A full-stack blog project allowing users to authenticate via email/password or Google OAuth, and access a personalized dashboard. The blog management features are currently under development.***
+A full-stack blog project allowing users to authenticate via email/password or Google OAuth, and access a personalized dashboard. The blog management features are currently under development.
 
 ## Tech Stack
 
@@ -114,6 +114,11 @@ The application provides robust user authentication mechanisms:
     cd ../frontend
     npm install
     ```
+    Create a `.env.development` file in the `frontend` directory with the following variable for local development:
+    ```
+    VITE_BACKEND_URL=http://localhost:5000
+    ```
+    For deployment, set the `VITE_BACKEND_URL` environment variable directly on your hosting platform (e.g., Render) to your deployed backend URL (e.g., `https://blogsforyou-2.onrender.com`).
 
 ### Running the Application
 
@@ -131,7 +136,7 @@ The application provides robust user authentication mechanisms:
     cd frontend
     npm run dev
     ```
-    The frontend application will run on `http://localhost:5173` (or the URL provided by Vite).
+    The frontend application will run on `http://localhost:5173` (or the URL provided by Vite), using the `VITE_BACKEND_URL` from `.env.development`.
 
 ## Future Enhancements
 
@@ -140,8 +145,8 @@ The application provides robust user authentication mechanisms:
 - Improved UI/UX for blog display and management.
 - Integration with other social login providers.
 
+### Link to Project
 
-**Email me at**
-    ```
-      work.jadhavsaurabh@gmail.com
-    ```
+    Deployed on Render
+    Visit our website at <https://blogsforyou-2.onrender.com>.
+    Email us at <work.jadhavsaurabh@gmail.com>.

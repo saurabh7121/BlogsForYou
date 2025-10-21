@@ -52,7 +52,6 @@ app.use("/api/auth", authRoutes);
 app.use("/api/protected", protectedRoutes);
 // This tells Express that any URL starting with /api/google should use googleAuthRoutes
 app.use("/api/google", googleAuthRoutes);
-
 // --- Start the Server ---
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
