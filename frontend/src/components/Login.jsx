@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 
 // --- API Service ---
-const API_URL = "https://blogsforyou-1.onrender.com/api/auth/";
+const API_URL = import.meta.env.VITE_BACKEND_URL + "/api/auth/";
 const AuthService = {
   login: (email, password) => {
     return axios.post(API_URL + "login", { email, password });
@@ -39,7 +39,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const { email, password } = formData;
-  const backendUrl = "https://blogsforyou-1.onrender.com";
+  const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
   const onChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });

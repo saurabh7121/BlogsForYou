@@ -2,7 +2,7 @@ import axios from "axios";
 
 // --- API Service ---
 // This part handles all communication with your backend.
-const API_URL = "https://blogsforyou-1.onrender.com/api"; // Ensure this port is correct
+const API_URL = import.meta.env.VITE_BACKEND_URL + "/api"; // Ensure this port is correct
 
 const AuthService = {
   signup: (userData) => {

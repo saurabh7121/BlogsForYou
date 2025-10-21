@@ -9,7 +9,7 @@ export default defineConfig({
     proxy: {
       // Proxy /api requests to our backend server
       "/api": {
-        target: "https://blogsforyou-1.onrender.com",
+        target: process.env.VITE_BACKEND_URL,
         changeOrigin: true,
         secure: false,
       },

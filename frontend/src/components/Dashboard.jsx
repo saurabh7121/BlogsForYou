@@ -69,7 +69,7 @@ const ProfileUpdate = ({ userData, onUpdateSuccess, onCancel }) => {
 };
 
 // --- API Service ---
-const API_URL = "https://blogsforyou-1.onrender.com/api";
+const API_URL = import.meta.env.VITE_BACKEND_URL + "/api";
 
 const AuthService = {
   getUserData: (token) => {

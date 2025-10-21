@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 
 // --- API Service ---
-const API_URL = "https://blogsforyou-1.onrender.com/api/auth/";
+const API_URL = import.meta.env.VITE_BACKEND_URL + "/api/auth/";
 const AuthService = {
   signup: (userData) => {
     return axios.post(API_URL + "signup", userData);
