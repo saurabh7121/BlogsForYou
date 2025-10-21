@@ -1,6 +1,6 @@
 # BlogsForYou | Tech, Lifestyle, Travel & More
 
-A full-stack blog project allowing users to authenticate via email/password or Google OAuth, and access a personalized dashboard. The blog management features are currently under development.
+***A full-stack blog project allowing users to authenticate via email/password or Google OAuth, and access a personalized dashboard. The blog management features are currently under development.***
 
 ## Tech Stack
 
@@ -141,9 +141,9 @@ The application provides robust user authentication mechanisms:
 - Integration with other social login providers.
 
 
-***Link to Project*** 
-    ```bash
+**Link to Project** - 
+    ```
     Deployed on Render
     ```
-    Visit our website at 'https://blogsforyou-2.onrender.com'
+    Visit website at 'https://blogsforyou-2.onrender.com'
     Email us at `work.jadhavsaurabh@gmail.com`
