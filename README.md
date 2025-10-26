@@ -145,8 +145,7 @@ The application provides robust user authentication mechanisms:
 - Improved UI/UX for blog display and management.
 - Integration with other social login providers.
 
-### Link to Project
-
-    Deployed on Render
-    Visit our website at <https://blogsforyou-2.onrender.com>.
-    Email us at <work.jadhavsaurabh@gmail.com>.
+ **Contact:**
+    ```bash
+       Email us at @work.jadhavsaurabh@gmail.com
+    ```
